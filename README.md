@@ -1,30 +1,35 @@
-> **Note**: This branch (master) contains a skeleton without any app code, perfect for creating a _new_ application or challenge. If you're looking for an example app built with this skeleton, take a look at the [example](/../..//tree/example) branch which includes basic CRUD and RSpec tests.
+![Clutter Logo](public/images/clutter.png)
 
-### Purpose
-The Sinatra Skeleton:
+# Like the idea of twitter, but want different functionality? 
+Now's your chance to build the twitter of your dreams. Clutter is an open-source twitter like project where you can choose what goes into the network and what goes out. Plus, you can finally get that username you've been looking for. Fork the project and get going!  
 
-1. Provides a foundation for building challenges or creating a new Sinatra application.
-2. Demonstrates a reasonable set of practices around building Sinatra applications.
-3. Eases the transition to Rails for Dev Bootcamp students
+# Almost Identical UX UI
 
-### Quickstart
+<img src="public/images/readme/login.png?raw=true" width="450px">
+<img src="public/images/readme/landing.png?raw=true" width="450px">
+<img src="public/images/readme/feed.png?raw=true" width="450px">
+<img src="public/images/readme/giphy.png?raw=true" width="450px">
+<img src="public/images/readme/profile.png?raw=true" width="450px">
 
-1.  `bundle install`
-2.  `shotgun config.ru`
+# Checkout the current version #
+[Clutter App]("https://clutterapp.herokuapp.com")
 
-As needed, create models & migrations with the `rake` tasks:
+# Features
+- User Authentication
+- Infinite Scroll
+- Tweet/Retweet/Like
+- GIPHY Integration
+- Follow Users
+- Trends 
+- Image Uploads
 
-```
-rake generate:migration  # Create an empty migration in db/migrate, e.g., rake generate:migration NAME=create_tasks
-rake generate:model      # Create an empty model in app/models, e.g., rake generate:model NAME=User
-```
-
-### Contributing
-
-We would love for you to help make the skeleton more awesome, There are three ways to contribute:
-
-1. Ask for a bug fix or enhancement!
-2. Submit a pull request for a bug fix or enhancement!
-3. Code review an open pull request!
-
-Be prepared to give and receive specific, actionable, and kind feedback!
+# Technologies Implemented
+- Ruby
+- Sinatra
+- JavaScript
+- AJAX
+- jQuery
+- Giphy
+- HTML5
+- CSS3
+- Heroku
